@@ -1,0 +1,144 @@
+main .row {
+  font-family: Nova Cut;
+  padding: 0;
+  margin: 0;
+  border: 2px solid black;
+  background: #1e130c;
+  background: -webkit-linear-gradient(#9a8478, #1e130c);
+  background: -o-linear-gradient(#9a8478, #1e130c);
+  background: -moz-linear-gradient(#9a8478, #1e130c);
+  background: linear-gradient(#9a8478, #1e130c);
+  border: none;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+.calculator {
+  border: 2px solid black;
+  background: #2c3e50;
+  background: -webkit-linear-gradient(#bdc3c7, #2c3e50);
+  background: -o-linear-gradient(#bdc3c7, #2c3e50);
+  background: -moz-linear-gradient(#bdc3c7, #2c3e50);
+  background: linear-gradient(#bdc3c7, #2c3e50);
+  width: 320px;
+  height: 75%;
+  top: 12.5%;
+  border-radius: 30px;
+  box-shadow: 1px 1px 5px black;
+  padding: 15px !important;
+}
+@media (min-width: 321px) {
+  .calculator {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+}
+@media (min-width: 525px) {
+  .calculator {
+    width: 75%;
+    margin-left: 12.5%;
+  }
+}
+@media (min-width: 768px) {
+  .calculator {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+@media (min-width: 1000px) {
+  .calculator {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+.calculator div {
+  text-align: center;
+}
+.calculator .title {
+  margin-bottom: 10px;
+}
+.calculator h1 {
+  font-size: 32px;
+}
+@media (min-width: 525px) {
+  .calculator h1 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .calculator h1 {
+    font-size: 45px;
+  }
+}
+
+.screen {
+  background-color: grey;
+  height: 17.5%;
+  border-radius: 8px;
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+.screen div {
+  text-align: right;
+}
+.screen div:first-child {
+  height: 60%;
+}
+.screen div:first-child p {
+  font-size: 32px;
+}
+.screen div:last-child {
+  height: 40%;
+}
+.screen div:last-child p {
+  font-size: 20px;
+  display: inline-block;
+}
+.screen div p {
+  padding-right: 5px;
+  display: block;
+}
+
+.buttons {
+  height: 12.5%;
+}
+.buttons #ac p {
+  background-color: #F11712;
+}
+.buttons #ce p {
+  background-color: #F0CB35;
+}
+.buttons div {
+  height: 100%;
+  padding: 7.5px;
+}
+.buttons div p {
+  background-color: #F56217;
+  font-size: 35px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.two-rowB {
+  height: 25%;
+}
+.two-rowB div.col-xs-9 {
+  height: 100%;
+}
+.two-rowB div.col-xs-9 div.col-xs-12 {
+  height: 50%;
+}
+.two-rowB div.col-xs-3 {
+  height: 100%;
+}
+.two-rowB div.col-xs-3 div.col-xs-12 {
+  height: 100%;
+}
+.two-rowB div.col-xs-3 div.col-xs-12 p {
+  height: 100%;
+  padding-top: 30px;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  padding: 0;
+}
